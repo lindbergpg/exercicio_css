@@ -5,166 +5,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body>    
     <header>
-        <h1>Meu portal de notícias</h1>
-        <ul>
-            <li>
-                <a href="#">Esportes</a>
-            </li>    
-            <li>
-                <a href="#">Economia</a>
-            </li>
-            <li>
-                <a href="#">Entretenimento</a>
-            </li> 
-            <li>
-                <a href="#">Tecnologia</a>
-            </li>
-        </ul>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#esportes">Esportes</a>
+                        </li>    
+                        <li>
+                            <a href="#economia">Economia</a>
+                        </li>
+                        <li>
+                            <a href="#entretenimento">Entretenimento</a>
+                        </li> 
+                        <li>
+                            <a href="#tecnologia">Tecnologia</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>    
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <img src="./img/esp1.png" alt="Futebol">
-            <header>
-                <time>18/08/2022 às 14:31</time>
-            </header>
-            <h3>O futebol é considerado o esporte coletivo mais popular do mundo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/esp2.png" alt="Futebol americano">
-            <header>
-                <time>18/08/2022 às 14:34</time>
-            </header>
-            <h3>Competição amadora de futebol americano 2022</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/esp3.png" alt="Basquetebol">
-            <header>
-                <time>18/08/2022 às 14:37</time>
-            </header>
-            <h3>Europeus se classificam e igualam recorde conquistado no Rio-2016</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/esp4.png" alt="UFC">
-            <header>
-                <time>18/08/2022 às 14:41</time>
-            </header>
-            <h3>Do Bronx manda recado intenso para Makhachev</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
+    <section id="esportes">
+        <div class="container">
+            <h2>Esportes</h2>
+                <div class="articles">
+                    <article>
+                        <img src="./img/esp1.png" alt="Futebol">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:31</time>
+                        </header>
+                        <h3>O futebol é considerado o esporte coletivo mais popular do mundo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./img/esp2.png" alt="Futebol americano">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:34</time>
+                        </header>
+                        <h3>Competição amadora de futebol americano 2022</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./img/esp3.png" alt="Basquetebol">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:37</time>
+                        </header>
+                        <h3>Europeus se classificam e igualam recorde conquistado no Rio-2016</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./img/esp4.png" alt="UFC">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:41</time>
+                        </header>
+                        <h3>Do Bronx manda recado intenso para Makhachev</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                </div>                
+        </div>
     </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="./img/ecm1.png" alt="Euro">
-            <header>
-                <time>18/08/2022 às 14:44</time>
-            </header>
-            <h3>Euro fica abaixo de US$ 1,01</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/ecm2.png" alt="Ibovespa">
-            <header>
-                <time>18/08/2022 às 14:47</time>
-            </header>
-            <h3>Ibovespa hoje: Mercado se apoia em cenário de menos altas de juros</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/ecm3.png" alt="Economia brasileira">
-            <header>
-                <time>18/08/2022 às 14:47</time>
-            </header>
-            <h3>Já podemos comemorar o crescimento da economia brasileira?</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
+    <section id="economia">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./img/ecm1.png" alt="Euro">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 14:44</time>
+                    </header>
+                    <h3>Euro fica abaixo de US$ 1,01</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./img/ecm2.png" alt="Ibovespa">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 14:47</time>
+                    </header>
+                    <h3>Ibovespa hoje: Mercado se apoia em cenário de menos altas de juros</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./img/ecm3.png" alt="Economia brasileira">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 14:47</time>
+                    </header>
+                    <h3>Já podemos comemorar o crescimento da economia brasileira?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Entretenimento</h2>
-        <article>
-            <img src="./img/ent1.png" alt="Cinema">
-            <header>
-                <time>18/08/2022 às 14:50</time>
-            </header>
-            <h3>Cinema é o entretenimento preferido do público jovem</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/ent2.png" alt="Mercado de entretenimento">
-            <header>
-                <time>18/08/2022 às 14:53</time>
-            </header>
-            <h3>Mercado de entretenimento: prosperidade no Brasil</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/ent3.png" alt="Entretenimento na TV">
-            <header>
-                <time>18/08/2022 às 14:53</time>
-            </header>
-            <h3>Estudo mostra o poder do entretenimento na TV</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
+    <section id="entretenimento">
+        <div class="container">
+            <h2>Entretenimento</h2>
+                <div class="articles">
+                    <article>
+                        <img src="./img/ent1.png" alt="Cinema">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:50</time>
+                        </header>
+                        <h3>Cinema é o entretenimento preferido do público jovem</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./img/ent2.png" alt="Mercado de entretenimento">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:53</time>
+                        </header>
+                        <h3>Mercado de entretenimento: prosperidade no Brasil</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./img/ent3.png" alt="Entretenimento na TV">
+                        <header>
+                            <time class="creation-date">18/08/2022 às 14:53</time>
+                        </header>
+                        <h3>Estudo mostra o poder do entretenimento na TV</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                        </p>
+                        <a href="#" title="Leia a noticia completa">Ler mais</a>
+                    </article>
+                </div>
+        </div>
     </section>
-    <section>
-        <h2>Tecnologia</h2>
-        <article>
-            <img src="./img/tec1.png" alt="Tecnologia e o ser humano">
-            <header>
-                <time>18/08/2022 às 14:58</time>
-            </header>
-            <h3>Como a tecnologia está mudando o que é ser humano</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/tec2.png" alt="Tecnologia da Robótica">
-            <header>
-                <time>18/08/2022 às 15:00</time>
-            </header>
-            <h3>Tecnologia da Robótica, veja grandes contribuições que ela já nos deu</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
-        <article>
-            <img src="./img/tec3.png" alt="Tecnologia e pessoas">
-            <header>
-                <time>18/08/2022 às 15:03</time>
-            </header>
-            <h3>Como usar a tecnologia no desenvolvimento de pessoas</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
-            </p>
-        </article>
+    <section id="tecnologia">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./img/tec1.png" alt="Tecnologia e o ser humano">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 14:58</time>
+                    </header>
+                    <h3>Como a tecnologia está mudando o que é ser humano</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./img/tec2.png" alt="Tecnologia da Robótica">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 15:00</time>
+                    </header>
+                    <h3>Tecnologia da Robótica, veja grandes contribuições que ela já nos deu</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./img/tec3.png" alt="Tecnologia e pessoas">
+                    <header>
+                        <time class="creation-date">18/08/2022 às 15:03</time>
+                    </header>
+                    <h3>Como usar a tecnologia no desenvolvimento de pessoas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum dolor quasi, ducimus quos nihil, voluptates, iure voluptate deleniti dignissimos repellendus. At eaque tempora autem amet voluptas deleniti, magni vero.
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>    
 </body>
 </html>
