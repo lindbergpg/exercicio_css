@@ -7,7 +7,7 @@
 body > header {
     color: rgb(255, 255, 255);
     background-color: rgb(49, 1, 169);
-    padding: 16px 0;
+    padding: 20px 0;
 }
 
 header .container {
@@ -17,36 +17,45 @@ header .container {
 }
 
 #esportes h2 {
-    color: gold;
+    color: rgb(255, 255, 255);
+    background-color: gold;
+    border-left: 4px solid rgb(255, 162, 0);
 }
 
-#esportes {
+/*#esportes {
     background-color: rgb(252, 255, 206);
-}
+}*/
 
 #economia h2 {
-    color: green;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-left: 4px solid rgb(0, 217, 0);
 }
 
-#economia {
+/*#economia {
     background-color: rgb(185, 255, 185);
-}
+}*/
 
 #entretenimento h2 {
-    color: rebeccapurple;
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    border-left: 4px solid rgb(128, 0, 255);
+
 }
 
-#entretenimento {
+/*#entretenimento {
     background-color: rgb(218, 180, 255);
-}
+}*/
 
 #tecnologia h2 {
-    color: blue;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border-left: 4px solid rgb(0, 4, 134);
 }
 
-#tecnologia {
+/*#tecnologia {
     background-color: rgb(180, 180, 255);
-}
+}*/
 
 .creation-date {
     color: rgb(0, 0, 0);
@@ -54,20 +63,22 @@ header .container {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header li {
+header li,
+footer .rodape li {
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin-left: 16px;
 }
 
-header li a {
+header li a,
+footer .rodape li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .container {
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -118,6 +129,7 @@ section h2,
 
 .articles article a:hover {
     text-decoration: underline;
+    color: rgb(150, 150, 150);
 }
 
 .articles article p {
@@ -134,6 +146,8 @@ section h2 {
     color: rgb(255, 255, 255);
     background-color: rgb(49, 1, 169);
     padding: 16px 0;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .rodape p {
@@ -141,4 +155,24 @@ section h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     font-weight: lighter;
+}
+
+footer .rodape li {
+    justify-content: center;
+}
+
+#esportes .articles article a {
+    background-color: gold;
+}
+
+#economia .articles article a {
+    background-color: green;
+}
+
+#entretenimento .articles article a {
+    background-color: rebeccapurple;
+}
+
+#tecnologia .articles article a {
+    background-color: blue;
 }
